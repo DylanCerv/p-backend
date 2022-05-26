@@ -7,7 +7,7 @@ Esta prueba no la pude subir a un servicio de la nube por unos inconveninetes qu
 Por esa razon de tanto intentar y no poder encontrar uno que me permitira subirlo, decidi mejor subir un archivo .rar a este repositorio, este es el documento:
 
 <p align="center">
-<img src="" alt="">
+<img src="README/rar.JPG" alt="">
 </p>
 Espero que puedan comprender la situacion, gracias de antemano.
 
