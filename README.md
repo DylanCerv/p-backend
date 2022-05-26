@@ -23,6 +23,6 @@ Espero que puedan comprender la situacion, gracias de antemano.
 
 # Comandos a Ejecutar
 - Una vez creada la base de datos y configurado sus parametros en el archivo (.env), ejecutar el siguiente comando dentro del proyecto.
-- ``` php artisan migrate --seed ``
+- . ``` php artisan migrate --seed ``
 
 - Podemos probar el proyecto en la siguiente ruta si tiene instalado Xampp (http://localhost/prueba-backend/public/)
