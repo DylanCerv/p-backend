@@ -26,14 +26,14 @@ class UpdateCompaniasRequest extends FormRequest
     public function rules(){
         return[
             'nombre' => 'required',
-            'logo' => 'dimensions:min_width=100,min_height=100'
+            // 'logo' => 'dimensions:min_width=100,min_height=100'
         ];
     }
 
     public function messages(){
         return[
             'nombre.required' => 'El nombre es requerido',
-            'logo.dimensions' => 'El minimo requerido del logo es de 100 x 100'
+            // 'logo.dimensions' => 'El minimo requerido del logo es de 100 x 100'
         ];
     }
 }

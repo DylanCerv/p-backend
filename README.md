@@ -1,7 +1,7 @@
 
 # Prueba Backend
 
-### NOTA IMPORTANTE:
+<!-- ### NOTA IMPORTANTE:
 Esta prueba no la pude subir a un servicio de la nube por unos inconvenientes que se presentó, pase todo el día buscando y probando diferentes servicios de la nube para subirlo, pero ninguno funciono, y otros que parecía que funciarian solo intentaron introducir software malicioso a mi PC.
 
 Por esa razón de tanto intentar y no poder encontrar uno que me permitirá subirlo, decidí mejor subir un archivo .rar a este repositorio, este es el documento:
@@ -26,4 +26,4 @@ Espero que puedan comprender la situación, gracias de antemano.
 - Una vez creada la base de datos y configurado sus parámetros en el archivo (.env), ejecutar el siguiente comando dentro del proyecto.
 - . ``` php artisan migrate --seed ```
 
-- Podemos probar el proyecto en la siguiente ruta si tiene instalado Xampp (http://localhost/prueba-backend/public/)
+- Podemos probar el proyecto en la siguiente ruta si tiene instalado Xampp (http://localhost/prueba-backend/public/) -->

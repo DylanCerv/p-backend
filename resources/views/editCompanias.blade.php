@@ -10,7 +10,7 @@
     <div class="mt-0 justify-content-center row vh-100 align-items-center form-container justify-content-center row align-items-center">
 
 
-        <form action="{{route('update-companias', $company)}}" method="post" class="col-5">
+        <form action="{{route('update-companias', $company)}}" method="post" class="col-5" enctype="multipart/form-data">
 
             @csrf
             @method('put')
@@ -36,11 +36,11 @@
             <div class="mb-3">
                 <label for="Logo" class="form-label">Logo</label>
                 <input type="file" name="logo" class="form-control" id="exampleInputText1" value="{{$company->logo}}">
+            </div>
                 @error('logo')
                     <small class="text-danger">*{{$message}}</small>
                     <br>
                 @enderror
-            </div>
             <button type="submit" class="btn btn-primary">Editar Compañia</button>
         </form>
 

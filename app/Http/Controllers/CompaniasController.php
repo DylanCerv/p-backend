@@ -90,12 +90,21 @@ class CompaniasController extends Controller
      */
     public function update(UpdateCompaniasRequest $request){
         $company = Companias::find($request->id);
-        // return $company;
+        // return $request;
+        
+        if($request->file('logo') != ""){
+            // dd($request);
+            $request->validate(['logo'=> 'image|min:100x100']);
+            $img = $request->file('logo')->store('public/logo');
+            $urlImg = Storage::url($img); // Cambia el nombre public por storage
+            // return $urlImg;
+            $company->logo = $urlImg;
+        }
 
         $company->nombre = $request->nombre;
         $company->email = $request->email;
         $company->pagina_web = $request->pagina_web;
-        $company->logo = $request->logo;
+        
         
         // return $request->all();
         

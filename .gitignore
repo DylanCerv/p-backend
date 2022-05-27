@@ -13,4 +13,5 @@ yarn-error.log
 /.idea
 /.vscode
 prueba-backend.rar
-# /pbackendu
+/pbackendu
+README.md
